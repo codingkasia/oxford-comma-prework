@@ -1,5 +1,5 @@
 def oxford_comma(arr)
-  if(arr.size == 2)
+  if(arr.size >1 && arr.size < 3)
     arr.join("and ")
   else
     last = arr.pop
