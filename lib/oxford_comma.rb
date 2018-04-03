@@ -5,7 +5,6 @@ def oxford_comma(arr)
     last = arr.pop
     last<< "and"  
     arr.join(",")
-    arr.join(",")
     arr.join(last)
   end
 end
