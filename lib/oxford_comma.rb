@@ -3,6 +3,6 @@ def oxford_comma(arr)
     arr.join(",")
   else
     last = arr.pop
-    arr.join(", ") <<"and "<< last
+    arr.join(", ") << "and "<< last
   end
 end
