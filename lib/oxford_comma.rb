@@ -6,6 +6,6 @@ def oxford_comma(arr)
     unshift.last 
     arr.join(",")
     arr.join(",")
-    arr<<last
+    arr.join(last)
   end
 end
