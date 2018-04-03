@@ -5,5 +5,6 @@ def oxford_comma(arr)
     arr.last.join("and")
 end 
 end
+last = arr[arr.size-1]
 
 arr[arr.size].join("and")
